@@ -26,7 +26,7 @@ import java.sql.Date;
 
 
 public class login extends AppCompatActivity implements OnClickListener {
-    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://clientregister-c1856-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("Firebase_API_key");
     private String username , password;
 
     @Override
