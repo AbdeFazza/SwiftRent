@@ -18,7 +18,7 @@ import java.sql.SQLException;
 import java.util.Map;
 
 public class DatabaseUtil {
-    private static final String URL = "https://clientregister-c1856-default-rtdb.firebaseio.com/";
+    private static final String URL = "Firebase_API_Key";
 
     public static DatabaseReference connect() {
         try {
