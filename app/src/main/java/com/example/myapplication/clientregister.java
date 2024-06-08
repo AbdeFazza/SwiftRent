@@ -48,7 +48,6 @@ public class clientregister extends AppCompatActivity implements OnClickListener
     private String username, email, password, vPassword, phoneNumber, city, address, firstName, lastName, birthDate;
     private String cinNumber, drivingLicenceCategory, drivingLicenseExpireDate, drivingLicenseObtainDate;
     private TextView cinRecto, cinVerso, drivingLicenseRecto, drivingLicenseVerso;
-//    DatabaseReference databaseReference = FirebaseDatabase.getInstance("https://clientregister-c1856-default-rtdb.firebaseio.com/").getReference();
     Map<TextView, Pair<Uri, BitmapDrawable>> textViewImages = new HashMap<>();
 
     @Override
