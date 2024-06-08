@@ -18,7 +18,7 @@ import java.sql.SQLException;
 import java.util.Map;
 
 public class DatabaseUtil {
-    private static final String URL = "Firebase_API_Key";
+    private static final String URL = "Firebase_URL";
 
     public static DatabaseReference connect() {
         try {
