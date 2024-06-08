@@ -49,7 +49,7 @@ import java.util.List;
 import java.util.Map;
 
 public class agencymain extends AppCompatActivity implements CarDaoImp.CarRetrievalListener, RequestDaoImp.RequestRetrievalListener {
-    DatabaseReference databaseReference = FirebaseDatabase.getInstance("https://clientregister-c1856-default-rtdb.firebaseio.com/").getReference();
+    DatabaseReference databaseReference = FirebaseDatabase.getInstance("Firebase_API_Key").getReference();
     FirebaseStorage storage = FirebaseStorage.getInstance();
     Map<TextView, Pair<Uri, BitmapDrawable>> textViewImages = new HashMap<>();
     private TextView agencyNameTextView;
